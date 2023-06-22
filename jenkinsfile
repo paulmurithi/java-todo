@@ -3,17 +3,17 @@ pipeline{
     stages{
         stage("clone"){
             steps{
-                sh 'echo cloning repository'
+                sh 'echo cloning repository...'
             }
         }
         stage("build"){
             steps{
-                sh 'echo building the project'
+                sh 'echo building the project..'
             }
         }
         stage("deploy"){
             steps{
-                sh 'echo deploying the project'
+                sh 'echo deploying the project..'
             }
         }
     }
